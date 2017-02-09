@@ -46,8 +46,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MedievalTownExteriors\Scripts\ProtectCameraFromWallClip.cs" />
      <Compile Include="Assets\test.cs" />
+     <None Include="Assets\MedievalTownExteriors\Readme.txt" />
      <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/Shared/Unity/zoo/zooproject4D/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
@@ -66,6 +71,10 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{3AE37E87-E772-6518-9288-BC9E3C26BAD4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
